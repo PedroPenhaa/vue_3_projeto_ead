@@ -9,7 +9,7 @@
       </span>
       <span class="title">{{ title }}</span>
       <span class="action">
-        <a href="trainings.html" class="btn laravel">Acessar</a>
+        <a href="trainings.html" :class="['btn', bdName]">Acessar</a>
       </span>
     </span>
     <span class="dots">

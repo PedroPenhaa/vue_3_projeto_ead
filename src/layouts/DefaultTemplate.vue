@@ -13,10 +13,8 @@
 
 
 <script>
-import FooterComponentVue from "./Components/FooterComponent.vue";
-
-import HeaderComponent from "./Components/HeaderComponent.vue";
 import FooterComponent from "./Components/FooterComponent.vue";
+import HeaderComponent from "./Components/HeaderComponent.vue";
 
 export default {
   name: "DefaultTemplate",

@@ -1,6 +1,7 @@
 <template>
   <div class="content">
-    <div class="card">
+
+     <div class="card">
       <div class="commentContent main">
         <span class="avatar">
           <img src="images/avatars/user01.svg" alt="" />
@@ -98,6 +99,27 @@
 
 <script>
 export default {
+
+  // retorne em data um array de cores
+  data() {
+    return {
+      cores: [
+        {
+          name: 'azul'
+        },
+        {
+          name: 'vermelho'
+        },
+        {
+          name: 'verde'
+        },
+        {
+          name: 'amarelo'
+        },
+      ]
+    }
+  },
+
   name: "SupportsComponent",
 };
 </script>

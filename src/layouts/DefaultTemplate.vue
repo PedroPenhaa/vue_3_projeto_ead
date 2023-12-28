@@ -22,6 +22,8 @@ export default {
     onBeforeMount(() => {
       document.body.classList.add("page");
       document.body.classList.add("dark");
+
+      document.title = "Curso EAD com Vue.js 3 - EspecializaTI";
     });
   },
 

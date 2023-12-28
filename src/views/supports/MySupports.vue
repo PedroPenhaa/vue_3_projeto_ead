@@ -12,12 +12,32 @@
     <div class="content">
       <div class="container">
 
+        <div class="left">
+
+          <div class="card">
+              <div class="title bg-laravel">
+                 <span class="text">Filtros</span>
+              </div>
+
+              <div class="modules">
+                <ul class = "classes">
+                  <li>Todos</li>
+                  <li>Aguardando Minha Resposta</li>
+                  <li>Aguardando Professor</li>
+                  <li>Finalizados</li>
+                </ul>
+              </div>
+          </div>
+        </div>
 
 
         <div class="right">
           <div class="content">
 
-            <supports />
+            <div class="comments">
+
+              <Supports />
+            </div>
           </div>
         </div>
       </div>

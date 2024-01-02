@@ -43,6 +43,7 @@
                 <input type="email" name="email" placeholder="Email" required>
               </div>
 
+
               <button class="btn primary" type="submit">Recuperar</button>
             </form>
             <span>

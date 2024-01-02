@@ -54,9 +54,11 @@
             <span>
                             <p class="fontSmall">Esqueceu sua senha?
 
-                             <router-link to="{name: 'forget.password'}" class="link primary">Clique aqui</router-link>
+                             <router-link :to="{name: 'forget.password'}" class="link primary">Clique aqui</router-link>
                             </p>
                         </span>
+
+
           </div>
           <span class="copyright fontSmall">
                         Todos os Direitos reservados - <b>Especializati</b>

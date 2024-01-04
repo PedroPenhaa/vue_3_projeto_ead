@@ -1,5 +1,10 @@
 import axios from "axios";
-export default class AuthService {
+import BaseService from "@/services/BaseService";
+
+
+export default class AuthService extends BaseService {
+
+
     static async auth(params) {
         try {
             const response = await axios.post('http://localhost:8080/auth', params);
@@ -10,4 +15,4 @@ export default class AuthService {
             throw error; // Rejeita a Promessa com o erro para que possa ser tratado no componente que chama AuthService.auth
         }
     }
-}
+};
